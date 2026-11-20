@@ -108,6 +108,16 @@ The dashboard included:
 | Blocked Access | Investigate denied network activity |
 | Repeated Port Access | Identify potential scanning behaviour |
 
+### Kibana Security Monitoring Dashboard
+
+![Kibana Dashboard](./screenshots/kibana-dashboard.png)
+
+*Figure 1: Overview of the Kibana security monitoring dashboard.*
+
+![Kibana Dashboard Continued](./screenshots/kibana-dashboard-continued.png)
+
+*Figure 2: Additional network security monitoring visualizations.*
+
 ## 07 / Security Monitoring
 
 The monitoring phase focused on observing network activity and identifying abnormal patterns through dashboard visualizations.
@@ -120,6 +130,18 @@ Activities included:
 - Monitoring blocked access attempts.
 - Identifying repeated activity from specific IP addresses.
 - Examining geographic access patterns.
+
+### Geographic Access Monitoring
+
+![Geographic Access](./screenshots/geographic-access.png)
+
+*Figure 3: Geographic distribution of network access.*
+
+### Destination Port Analysis
+
+![Targeted Ports](./screenshots/targeted-ports.png)
+
+*Figure 4: Analysis of frequently accessed destination ports.*
 
 ## 08 / Threat Detection
 
@@ -134,6 +156,24 @@ Potential security threats were investigated based on observable behaviour withi
 | Unauthorized Access | Repeated blocked access attempts |
 
 These indicators were used to identify events requiring further investigation rather than automatically classifying them as confirmed attacks.
+
+### Failed Login Attempts
+
+![Failed Login Attempts](./screenshots/failed-login-attempts.png)
+
+*Figure 5: Failed login activity used to investigate potential brute-force attempts.*
+
+### Blocked Access Monitoring
+
+![Blocked Access](./screenshots/blocked-access.png)
+
+*Figure 6: Monitoring blocked network access attempts.*
+
+### Repeated Port Access
+
+![Repeated Port Access](./screenshots/repeated-port-access.png)
+
+*Figure 7: Repeated port access activity investigated for potential scanning behaviour.*
 
 ## 09 / Security Investigation
 
@@ -163,6 +203,18 @@ VirusTotal was used to perform external IP reputation checks and support the inv
 The protocol and port combination was identified as an anomaly requiring further analysis.
 
 The absence of malicious reputation findings did not independently establish that the activity was benign.
+
+### Kibana Discover Investigation
+
+![Kibana Investigation](./screenshots/kibana-investigation.png)
+
+*Figure 8: Detailed investigation of network log records using Kibana Discover.*
+
+### VirusTotal Threat Intelligence
+
+![VirusTotal Analysis](./screenshots/virustotal-analysis.png)
+
+*Figure 9: IP reputation investigation using VirusTotal.*
 
 ## 10 / Investigation Workflow
 
