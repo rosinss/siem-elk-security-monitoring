@@ -262,6 +262,12 @@ graph TD
 - [ ] Custom detection rules
 - [ ] Integration with cybersecurity home lab
 
+## Project Documentation Note
+
+This repository serves as a technical case study of my completed academic SIEM project. The original project configuration files and dataset are no longer available.
+
+The documentation and screenshots presented in this repository were retained from the original project implementation.
+
 ## 14 / Disclaimer
 
 This project was developed for academic and educational purposes within a controlled learning environment.
